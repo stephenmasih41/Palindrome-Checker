@@ -7,9 +7,10 @@ const result = document.getElementById('result');
 // Function for getting the value of the input
 checkBtn.addEventListener('click', () =>{
   const textValue = textInput.value;
-  console.log(textValue);
+  // console.log(textValue);
   // Passing the textValue in the palindrome Checker
   palindromeChecker(textValue);
+  textValue = ""
 })
 
 function palindromeChecker(val){
